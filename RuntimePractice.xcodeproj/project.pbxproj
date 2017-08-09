@@ -15,6 +15,10 @@
 		A3D11C5A1F3A9D0100518A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D11C581F3A9D0100518A16 /* LaunchScreen.storyboard */; };
 		A3D11C651F3A9D0200518A16 /* RuntimePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D11C641F3A9D0200518A16 /* RuntimePracticeTests.m */; };
 		A3D11C701F3A9D0200518A16 /* RuntimePracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D11C6F1F3A9D0200518A16 /* RuntimePracticeUITests.m */; };
+		A3D11C7F1F3A9D6200518A16 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D11C7E1F3A9D6200518A16 /* Person.m */; };
+		A3D11C821F3AB0B400518A16 /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D11C811F3AB0B400518A16 /* NSURL+url.m */; };
+		A3D11C851F3AB62800518A16 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D11C841F3AB62800518A16 /* Dog.m */; };
+		A3D11C881F3AB65200518A16 /* NSObject+ELKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D11C871F3AB65200518A16 /* NSObject+ELKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		A3D11C6B1F3A9D0200518A16 /* RuntimePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D11C6F1F3A9D0200518A16 /* RuntimePracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimePracticeUITests.m; sourceTree = "<group>"; };
 		A3D11C711F3A9D0200518A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D11C7D1F3A9D6200518A16 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A3D11C7E1F3A9D6200518A16 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A3D11C801F3AB0B400518A16 /* NSURL+url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
+		A3D11C811F3AB0B400518A16 /* NSURL+url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
+		A3D11C831F3AB62800518A16 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A3D11C841F3AB62800518A16 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		A3D11C861F3AB65200518A16 /* NSObject+ELKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ELKVO.h"; sourceTree = "<group>"; };
+		A3D11C871F3AB65200518A16 /* NSObject+ELKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ELKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				A3D11C4E1F3A9D0100518A16 /* AppDelegate.m */,
 				A3D11C501F3A9D0100518A16 /* ViewController.h */,
 				A3D11C511F3A9D0100518A16 /* ViewController.m */,
+				A3D11C7D1F3A9D6200518A16 /* Person.h */,
+				A3D11C7E1F3A9D6200518A16 /* Person.m */,
+				A3D11C831F3AB62800518A16 /* Dog.h */,
+				A3D11C841F3AB62800518A16 /* Dog.m */,
+				A3D11C801F3AB0B400518A16 /* NSURL+url.h */,
+				A3D11C811F3AB0B400518A16 /* NSURL+url.m */,
+				A3D11C861F3AB65200518A16 /* NSObject+ELKVO.h */,
+				A3D11C871F3AB65200518A16 /* NSObject+ELKVO.m */,
 				A3D11C531F3A9D0100518A16 /* Main.storyboard */,
 				A3D11C561F3A9D0100518A16 /* Assets.xcassets */,
 				A3D11C581F3A9D0100518A16 /* LaunchScreen.storyboard */,
@@ -276,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D11C851F3AB62800518A16 /* Dog.m in Sources */,
 				A3D11C521F3A9D0100518A16 /* ViewController.m in Sources */,
+				A3D11C821F3AB0B400518A16 /* NSURL+url.m in Sources */,
 				A3D11C4F1F3A9D0100518A16 /* AppDelegate.m in Sources */,
+				A3D11C7F1F3A9D6200518A16 /* Person.m in Sources */,
 				A3D11C4C1F3A9D0100518A16 /* main.m in Sources */,
+				A3D11C881F3AB65200518A16 /* NSObject+ELKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y6J58CUHLQ;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RuntimePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eleven.cosmetic.RuntimePractice;
@@ -440,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y6J58CUHLQ;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RuntimePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eleven.cosmetic.RuntimePractice;
